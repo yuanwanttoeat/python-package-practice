@@ -52,11 +52,11 @@ Stress_model.fit(train_X, train_y)
 
 train_predictions = Stress_model.predict(train_X)
 train_mae = mean_absolute_error(train_y, train_predictions)
-print('Training Absolute Square Error: ', train_mae)
+print('Training Absolute Error: ', train_mae)
 
 val_predictions = Stress_model.predict(val_X)
 val_mae = mean_absolute_error(val_y, val_predictions)
-print('Prediction Absolute Square Error: ', val_mae)
+print('Prediction Absolute Error: ', val_mae)
 
 print('Training R2 score: ', Stress_model.score(train_X, train_y))
 print('Prediction R2 score: ', Stress_model.score(val_X, val_y))
