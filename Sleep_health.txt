@@ -1,0 +1,4 @@
+Training Absolute Square Error:  0.0
+Prediction Absolute Square Error:  0.010638297872340425
+Training R2 score:  1.0
+Prediction R2 score:  0.9968546093357872
